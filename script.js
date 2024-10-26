@@ -3,6 +3,6 @@ const Somar = function () {
     let num2 = document.getElementById("num2").value
     let saida = document.getElementById("saida")
 
-    let soma = num1 + num2
+    let soma = parseFloat(num1) + parseFloat(num2)
     saida.innerHTML = soma
 }
